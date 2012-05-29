@@ -37,6 +37,9 @@ group :test do
   gem 'libnotify', '0.7.2'
   gem 'guard-spork', '0.8.0'
   gem 'spork', '0.9.2'
+  gem 'factory_girl_rails', '1.4.0'
+  gem 'cucumber-rails', '1.3.0', require: false
+  gem 'database_cleaner','0.7.2'
 end
 
 group :production do
